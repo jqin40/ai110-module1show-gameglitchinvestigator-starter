@@ -42,3 +42,4 @@ I fixed all three of these bugs by utilizing Copilot AI. The backwards hint was 
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+

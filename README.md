@@ -26,12 +26,18 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The purpose of this game is to guess a randomly generated number between 1 and 100. 
 - [ ] Detail which bugs you found.
+Three bugs that I found were:
+1. The hint is backwards, telling you to go lower when the number is actually higher, or higher when the number is actually lower.
+2. Pressing the New Game button doesn't reset attempts or history from previous game, and should remove the "You already won" message
+3. Pressing enter to submit a guess doesn't work
 - [ ] Explain what fixes you applied.
+I fixed all three of these bugs by utilizing Copilot AI. The backwards hint was fixed by fixing a bug in the comparison logic, the New Game resetting functionality was added to the existing code, and pressing Enter to submit a guess worked by creating a form to submit the guess in.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 

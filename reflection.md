@@ -43,6 +43,8 @@ I decided that a bug was really fixed if I was able to run the streamlit app twi
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
 
+The secret number didn't keep changing for me, since it only changes after clicking the New Game button. I would explain reruns as continuously updating, like searching an entire refrigerator every time an item is added or taken out. Meanwhile, session state keeps track and remembers data, like a robot that remembers for you what items are in the fridge so you don't need to manually check each time.
+
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -51,3 +53,5 @@ I decided that a bug was really fixed if I was able to run the streamlit app twi
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+One strategy from this project I want to reuse in future labs or projects is utilizing Copilot chat with file context and FIXME lines. It ended being suprisingly good at fixing bugs how I wanted to. One thing I would do differently next time working with AI is using AI for more help with coming up with commit messages. This project definitely made me feel more empowered with creating AI generated code.
